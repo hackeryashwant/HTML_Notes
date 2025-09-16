@@ -1,0 +1,72 @@
+SESSION 6 - IMAGE MAPPING (CLIENT-SIDE AND SERVER-SIDE)
+---------------------------------------------------------
+
+1) WHAT IS IMAGE MAPPING?
+- Image Mapping = Making different parts of one image clickable.
+- Instead of linking the whole image, we can create "hotspots" (areas) 
+  inside the image and link them to different pages.
+
+Example:
+A single India map image → clicking on Maharashtra opens Maharashtra.html,
+clicking on Delhi opens Delhi.html.
+
+---------------------------------------------------------
+
+2) CLIENT-SIDE IMAGE MAP
+- Mapping is done inside the browser using HTML.
+- Uses <map> and <area> tags.
+
+Syntax:
+<img src="india.jpg" usemap="#indmap">
+
+<map name="indmap">
+  <area shape="rect" coords="34,44,270,350" href="maharashtra.html" alt="Maharashtra">
+  <area shape="circle" coords="400,200,50" href="delhi.html" alt="Delhi">
+</map>
+
+Explanation:
+- <img> usemap attribute links image to the map.
+- <map> defines the mapping.
+- <area> defines clickable regions.
+   * shape = rect / circle / poly
+   * coords = coordinates of the clickable area
+   * href = link
+   * alt = alternative text
+
+---------------------------------------------------------
+
+3) SERVER-SIDE IMAGE MAP
+- Mapping is handled by the server, not by the browser.
+- The image sends the click position (x,y) to the server.
+- Server processes the coordinates and decides what to do.
+
+Syntax:
+<img src="india.jpg" ismap usemap="#servermap">
+
+<map name="servermap">
+  <area shape="rect" coords="34,44,270,350" href="map_handler.php">
+</map>
+
+Explanation:
+- ismap = tells browser to send coordinates to server.
+- Server program (example: PHP, ASP) receives coordinates and processes them.
+- Less common today, mostly replaced by client-side maps.
+
+---------------------------------------------------------
+
+4) DIFFERENCE BETWEEN CLIENT-SIDE AND SERVER-SIDE MAPS
+- Client-Side:
+   * Processed in browser.
+   * Fast and simple.
+   * Uses <map> and <area>.
+- Server-Side:
+   * Processed on server.
+   * Needs server programming.
+   * Slower and less common now.
+
+---------------------------------------------------------
+
+SUMMARY
+- Image maps allow different parts of an image to act as links.
+- Client-Side Image Map = handled by browser using <map> and <area>.
+- Server-Side Image Map = handled by server using ismap and server program.

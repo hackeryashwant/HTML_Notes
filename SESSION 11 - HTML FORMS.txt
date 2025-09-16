@@ -1,0 +1,83 @@
+SESSION 11 - HTML FORMS
+--------------------------------------------------
+
+1) WHAT IS A FORM?
+- Forms are used to collect user input (like name, email, password).
+- Form data is sent to server for processing.
+
+Tag: <form> ... </form>
+
+Attributes:
+- action = where to send data (URL or file)
+- method = how to send data ("get" or "post")
+
+Example:
+<form action="submit.php" method="post">
+  <!-- form elements here -->
+</form>
+
+--------------------------------------------------
+
+2) INPUT TYPES
+<input> tag is used for different kinds of inputs.
+
+Examples:
+<input type="text" name="username" placeholder="Enter Name">
+<input type="password" name="pass" placeholder="Enter Password">
+<input type="email" name="email" placeholder="Enter Email">
+<input type="number" name="age">
+<input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female
+<input type="checkbox" name="hobby" value="Reading"> Reading
+<input type="date" name="dob">
+<input type="file" name="resume">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+--------------------------------------------------
+
+3) TEXTAREA
+- Used for multi-line text input (comments, feedback).
+
+Example:
+<textarea name="message" rows="5" cols="30">Enter your message here</textarea>
+
+--------------------------------------------------
+
+4) SELECT (Dropdown)
+<select name="city">
+  <option value="pune">Pune</option>
+  <option value="mumbai">Mumbai</option>
+  <option value="delhi">Delhi</option>
+</select>
+
+--------------------------------------------------
+
+5) FIELDSET AND LEGEND
+- Used to group related form elements.
+
+Example:
+<fieldset>
+  <legend>Personal Information</legend>
+  Name: <input type="text"><br>
+  Age: <input type="number">
+</fieldset>
+
+--------------------------------------------------
+
+6) IFRAME (Extra Learning)
+- Used to display another webpage inside current page.
+
+Example:
+<iframe src="https://www.wikipedia.org" width="400" height="300"></iframe>
+
+--------------------------------------------------
+
+SUMMARY
+- <form> tag collects user input.
+- action + method decide where/how to send data.
+- <input> supports text, password, email, radio, checkbox, date, file.
+- <textarea> for large text.
+- <select> for dropdown options.
+- <fieldset> and <legend> group related inputs.
+- <iframe> embeds another page.

@@ -1,0 +1,63 @@
+SESSION 5 - ADDING IMAGES, LINKS AND MARQUEE
+--------------------------------------------
+
+1) IMAGE TAG
+- Used to display images on a web page.
+- <img> is a self-closing tag (no ending tag).
+
+Syntax:
+<img src="image.jpg" alt="description" width="200" height="150">
+
+Attributes:
+- src  = path of the image (can be local file or online link)
+- alt  = alternative text shown if image is missing
+- width, height = control size of image
+
+Example:
+<img src="cat.jpg" alt="Cute Cat" width="200">
+
+--------------------------------------------
+
+2) LINK TAG (ANCHOR TAG)
+- Used to create hyperlinks.
+- <a> tag is used.
+
+Syntax:
+<a href="url">Link Text</a>
+
+Examples:
+<a href="https://www.google.com">Go to Google</a>
+<a href="about.html">Open About Page</a>
+<a href="cat.jpg">Open Cat Image</a>
+<a href="https://www.google.com" target="_blank">Open in New Tab</a>
+
+Explanation:
+- href = link location
+- target="_blank" = opens link in new tab
+
+--------------------------------------------
+
+3) MARQUEE TAG
+- Used to make text or images move across the screen.
+- Note: Marquee is old and not recommended in modern websites,
+  but still works for simple demos.
+
+Syntax:
+<marquee>Moving Text</marquee>
+
+Attributes:
+- direction = "left", "right", "up", "down"
+- scrollamount = speed of movement
+
+Examples:
+<marquee>Welcome to My Website</marquee>
+<marquee direction="right">This text moves right</marquee>
+<marquee direction="up">This text moves up</marquee>
+<marquee scrollamount="10">This text moves fast</marquee>
+
+--------------------------------------------
+
+SUMMARY
+- <img> tag is used for adding images with src, alt, width, height.
+- <a> tag is used for creating links (internal, external, images).
+- <marquee> tag makes text or images move (left, right, up, down).

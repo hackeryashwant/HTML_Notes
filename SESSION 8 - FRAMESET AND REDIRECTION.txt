@@ -1,0 +1,77 @@
+SESSION 8 - FRAMESET AND REDIRECTION
+--------------------------------------------------
+
+1) WHAT IS FRAMESET?
+- Frameset divides the browser window into multiple sections (frames).
+- Each frame can load a different webpage.
+- Frames are OLD in HTML, rarely used in modern websites,
+  but good for learning basics.
+
+--------------------------------------------------
+
+2) SIMPLE FRAMESET EXAMPLE
+<frameset cols="50%,50%">
+  <frame src="left.html">
+  <frame src="right.html">
+</frameset>
+
+Explanation:
+- cols = divides window into vertical columns
+- rows = divides window into horizontal rows
+- Each <frame> loads a separate HTML page
+
+Example with rows:
+<frameset rows="30%,70%">
+  <frame src="top.html">
+  <frame src="bottom.html">
+</frameset>
+
+--------------------------------------------------
+
+3) NESTED FRAMESET
+<frameset rows="30%,70%">
+  <frame src="header.html">
+  <frameset cols="50%,50%">
+    <frame src="menu.html">
+    <frame src="content.html">
+  </frameset>
+</frameset>
+
+- Top row has header
+- Below that screen is split into menu and content
+
+--------------------------------------------------
+
+4) IMPORTANT NOTE
+- In HTML5, <frameset> and <frame> are NOT supported anymore.
+- Replaced by <iframe> for embedding one page into another.
+
+Example (iframe):
+<iframe src="about.html" width="400" height="300"></iframe>
+
+--------------------------------------------------
+
+5) REDIRECTION IN HTML
+- Redirection = Automatically sending user to another page.
+
+Method 1: Using <meta> tag in head
+<head>
+  <meta http-equiv="refresh" content="5; url=welcome.html">
+</head>
+
+Explanation:
+- After 5 seconds, the browser redirects to welcome.html
+
+Method 2: Using JavaScript
+<script>
+  window.location.href = "welcome.html";
+</script>
+
+--------------------------------------------------
+
+SUMMARY
+- <frameset> divides the browser into frames (old method).
+- Attributes: rows and cols.
+- Nested framesets = frames inside frames.
+- In modern HTML, <iframe> is used instead of frameset.
+- Redirection can be done using <meta> refresh or JavaScript.

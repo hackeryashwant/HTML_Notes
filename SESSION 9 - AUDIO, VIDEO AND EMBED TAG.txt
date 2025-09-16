@@ -1,0 +1,77 @@
+SESSION 9 - AUDIO, VIDEO AND EMBED TAG
+--------------------------------------------------
+
+1) AUDIO TAG
+- Used to play audio files (mp3, wav, ogg).
+- Supported in HTML5.
+
+Syntax:
+<audio controls>
+  <source src="song.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+Explanation:
+- controls = adds play, pause, volume buttons
+- autoplay = starts playing automatically
+- loop = repeats the audio
+- muted = starts muted
+
+Example:
+<audio controls autoplay loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+--------------------------------------------------
+
+2) VIDEO TAG
+- Used to play video files (mp4, webm, ogg).
+
+Syntax:
+<video width="400" height="300" controls>
+  <source src="movie.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+Attributes:
+- width, height = size of video
+- controls = play, pause, volume
+- autoplay = play automatically
+- loop = repeat video
+- muted = start without sound
+- poster = image shown before play
+
+Example:
+<video width="500" height="300" controls poster="poster.jpg">
+  <source src="trailer.mp4" type="video/mp4">
+</video>
+
+--------------------------------------------------
+
+3) EMBED TAG
+- Used to embed external files (audio, video, pdf, flash).
+- Self-closing tag.
+
+Syntax:
+<embed src="file.mp4" width="400" height="300">
+
+Examples:
+- Embed video:
+<embed src="movie.mp4" width="500" height="300">
+- Embed audio:
+<embed src="song.mp3" width="300" height="50">
+- Embed PDF:
+<embed src="sample.pdf" width="600" height="500">
+
+--------------------------------------------------
+
+4) DIFFERENCE
+- <audio> and <video> = special tags with controls for media.
+- <embed> = general tag, can embed many file types.
+
+--------------------------------------------------
+
+SUMMARY
+- <audio> tag is for sound/music with controls, autoplay, loop, muted.
+- <video> tag is for video files with size, poster, controls.
+- <embed> tag can insert different types of files like pdf, audio, video.

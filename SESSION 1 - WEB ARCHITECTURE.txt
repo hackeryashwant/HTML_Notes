@@ -1,0 +1,59 @@
+SESSION 1 - WEB ARCHITECTURE
+------------------------------------
+
+1) WHAT IS WWW (WORLD WIDE WEB)
+- WWW is like a giant library of websites.
+- Websites are like books inside that library.
+- We use a web browser (Chrome, Firefox, Edge) to read those books.
+- Example: Typing www.youtube.com opens the YouTube "book" from the library.
+
+------------------------------------
+
+2) CLIENT AND SERVER
+- Client = Your computer, mobile, or browser. (It asks questions)
+- Server = Big computer that stores websites. (It gives answers)
+- Example: 
+  You (client) ask "What is the weather today?"
+  Weather office (server) replies with the answer.
+  Similarly, browser (client) asks the server for data.
+
+------------------------------------
+
+3) HTTP COMMUNICATION
+- HTTP is the language that client and server use to talk.
+- Client sends a request, server sends back a response.
+- Example:
+  Ordering food in Swiggy:
+  You place an order (request).
+  Restaurant prepares food and sends it back (response).
+
+------------------------------------
+
+4) WEB SERVER INSTALLATION
+- To make and run websites we need a server on our computer.
+- Common server packages:
+  WAMP = Windows + Apache + MySQL + PHP
+  LAMP = Linux + Apache + MySQL + PHP
+  XAMPP = Works on Windows, Linux, Mac
+- Example: These are like kitchens where chefs prepare food (websites) before serving.
+
+------------------------------------
+
+5) DEVELOPER TOOLS IN BROWSER
+- All browsers have hidden tools for developers.
+- Right-click on a web page -> Inspect.
+- We can see:
+  * HTML = Content of page
+  * CSS = Design of page
+  * Console = Errors and testing
+- Example: Open Google.com, right-click Inspect -> you will see the code behind the page.
+
+------------------------------------
+
+SUMMARY
+- WWW = Library of websites.
+- Client = Device that asks for data.
+- Server = Big computer that stores data.
+- HTTP = Communication language between client and server.
+- WAMP/LAMP/XAMPP = Tools to run websites on a computer.
+- Developer Tools = Hidden option in browser to check code.

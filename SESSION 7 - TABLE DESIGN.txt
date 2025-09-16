@@ -1,0 +1,118 @@
+SESSION 7 - TABLE DESIGN
+--------------------------------------------------
+
+1) INTRODUCTION
+- Tables are used to arrange data in rows and columns.
+- Tags used:
+  <table>   = starts the table
+  <tr>      = table row
+  <th>      = table header (bold + centered by default)
+  <td>      = table data (normal cell)
+
+--------------------------------------------------
+
+2) SIMPLE TABLE EXAMPLE
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>City</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>25</td>
+    <td>Pune</td>
+  </tr>
+  <tr>
+    <td>Asha</td>
+    <td>22</td>
+    <td>Mumbai</td>
+  </tr>
+</table>
+
+Output:
++--------+-----+--------+
+| Name   | Age | City   |
++--------+-----+--------+
+| John   | 25  | Pune   |
+| Asha   | 22  | Mumbai |
++--------+-----+--------+
+
+--------------------------------------------------
+
+3) TABLE WITH CAPTION
+<table border="1">
+  <caption>Student Information</caption>
+  <tr>
+    <th>Roll No</th>
+    <th>Name</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Rahul</td>
+  </tr>
+</table>
+
+- <caption> = Title of the table (appears at the top)
+
+--------------------------------------------------
+
+4) TABLE ATTRIBUTES
+- border   = thickness of border
+- cellpadding = space inside the cell
+- cellspacing = space between cells
+- width, height = size of table
+
+Example:
+<table border="1" cellpadding="10" cellspacing="5" width="400">
+  <tr><th>Product</th><th>Price</th></tr>
+  <tr><td>Laptop</td><td>50,000</td></tr>
+</table>
+
+--------------------------------------------------
+
+5) MERGING CELLS
+- colspan = merge columns
+- rowspan = merge rows
+
+Example:
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th colspan="2">Marks</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>80</td>
+    <td>90</td>
+  </tr>
+</table>
+
+Output:
+Name | Marks (spanning 2 columns)
+
+--------------------------------------------------
+
+6) STYLING TABLE (with CSS)
+<style>
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background-color: lightgray;
+  }
+</style>
+
+--------------------------------------------------
+
+SUMMARY
+- <table> creates a table with <tr>, <th>, <td>.
+- <caption> adds a title.
+- Attributes: border, cellpadding, cellspacing, width, height.
+- colspan merges columns, rowspan merges rows.
+- CSS can be used for better styling (borders, colors, alignment).

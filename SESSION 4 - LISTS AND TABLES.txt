@@ -1,0 +1,97 @@
+SESSION 4 - LISTS AND TABLES
+--------------------------------------------
+
+1) ORDERED LIST (Numbered list)
+<ol>
+  <li>Tea</li>
+  <li>Coffee</li>
+  <li>Milk</li>
+</ol>
+
+Output:
+1. Tea
+2. Coffee
+3. Milk
+
+--------------------------------------------
+
+2) UNORDERED LIST (Bullet points)
+<ul>
+  <li>Apple</li>
+  <li>Mango</li>
+  <li>Banana</li>
+</ul>
+
+Output:
+- Apple
+- Mango
+- Banana
+
+--------------------------------------------
+
+3) DEFINITION LIST (Term and Definition)
+<dl>
+  <dt>HTML</dt>
+  <dd>HyperText Markup Language</dd>
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets</dd>
+</dl>
+
+Output:
+HTML : HyperText Markup Language
+CSS  : Cascading Style Sheets
+
+--------------------------------------------
+
+4) NESTED LIST (List inside list)
+<ul>
+  <li>Fruits
+    <ul>
+      <li>Apple</li>
+      <li>Mango</li>
+    </ul>
+  </li>
+  <li>Vegetables</li>
+</ul>
+
+Output:
+- Fruits
+   - Apple
+   - Mango
+- Vegetables
+
+--------------------------------------------
+
+5) TABLE STRUCTURE
+<table border="1">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>City</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>25</td>
+    <td>Pune</td>
+  </tr>
+  <tr>
+    <td>Asha</td>
+    <td>22</td>
+    <td>Mumbai</td>
+  </tr>
+</table>
+
+Explanation:
+- <table> starts a table
+- <tr> = Table Row
+- <th> = Table Header (bold)
+- <td> = Table Data (cell)
+
+--------------------------------------------
+
+SUMMARY
+- Ordered List = <ol> (numbers)
+- Unordered List = <ul> (bullets)
+- Definition List = <dl>, <dt>, <dd>
+- Nested List = list inside another list
+- Table = <table>, <tr>, <th>, <td>

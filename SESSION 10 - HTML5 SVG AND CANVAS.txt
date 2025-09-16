@@ -1,0 +1,75 @@
+SESSION 10 - HTML5 SVG AND CANVAS
+--------------------------------------------------
+
+1) WHAT IS SVG?
+- SVG = Scalable Vector Graphics
+- Used to draw shapes (circle, rectangle, line) with XML-based tags
+- Scales without losing quality
+
+Example 1: Draw a Circle
+<svg width="200" height="200">
+  <circle cx="100" cy="100" r="80" stroke="blue" stroke-width="3" fill="yellow"/>
+</svg>
+
+Explanation:
+- cx, cy = center of circle
+- r = radius
+- stroke = border color
+- fill = inside color
+
+Example 2: Rectangle
+<svg width="300" height="100">
+  <rect width="200" height="80" x="50" y="10" fill="green"/>
+</svg>
+
+--------------------------------------------------
+
+2) WHAT IS CANVAS?
+- Canvas provides an area for drawing using JavaScript.
+- Can draw lines, shapes, images, text, animations.
+
+Example: Draw a Line
+<canvas id="myCanvas" width="300" height="200" style="border:1px solid black;"></canvas>
+
+<script>
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  ctx.moveTo(0,0);
+  ctx.lineTo(200,100);
+  ctx.stroke();
+</script>
+
+Explanation:
+- <canvas> creates a blank drawing area
+- JavaScript is used to draw
+
+--------------------------------------------------
+
+3) TEXT IN CANVAS
+<canvas id="textCanvas" width="400" height="150" style="border:1px solid black;"></canvas>
+
+<script>
+  var t = document.getElementById("textCanvas");
+  var txt = t.getContext("2d");
+  txt.font = "30px Arial";
+  txt.fillText("Hello Canvas!", 50, 80);
+</script>
+
+--------------------------------------------------
+
+4) SVG vs CANVAS
+- SVG:
+  * Vector-based (quality does not break on zoom)
+  * Uses XML tags
+  * Good for diagrams, charts, logos
+- CANVAS:
+  * Pixel-based (quality reduces on zoom)
+  * Uses JavaScript
+  * Good for games, animations, graphics
+
+--------------------------------------------------
+
+SUMMARY
+- <svg> = scalable vector graphics (circle, rectangle, line).
+- <canvas> = drawing area with JavaScript for graphics/animations.
+- SVG is vector-based, Canvas is pixel-based.

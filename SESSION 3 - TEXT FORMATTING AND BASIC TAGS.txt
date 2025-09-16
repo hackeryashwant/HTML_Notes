@@ -1,0 +1,72 @@
+SESSION 3 - TEXT FORMATTING AND BASIC TAGS
+--------------------------------------------
+
+1) TEXT FORMATTING TAGS
+- <b>Bold</b> = Makes text bold
+- <strong>Strong</strong> = Bold + Important
+- <i>Italic</i> = Slanted text
+- <em>Emphasized</em> = Italic + Important
+- <u>Underline</u> = Underlines text
+- <ins>Inserted</ins> = Inserted text (underlined)
+- <del>Deleted</del> = Shows strike through
+- <sub> = Subscript (below)
+- <sup> = Superscript (above)
+
+Example:
+<p>This is <b>bold</b>, <i>italic</i>, <u>underlined</u></p>
+<p>Water = H<sub>2</sub>O</p>
+<p>2<sup>3</sup> = 8</p>
+
+--------------------------------------------
+
+2) BLOCK ELEMENTS
+- <h1> to <h6> = Headings (h1 is biggest, h6 is smallest)
+- <p> = Paragraph
+- <div> = Division (block container)
+- <span> = Inline container (inside a sentence)
+
+Example:
+<h1>Main Heading</h1>
+<h2>Sub Heading</h2>
+<p>This is a paragraph.</p>
+<div>This is inside a block</div>
+<span>This is inline text</span>
+
+--------------------------------------------
+
+3) IMAGE TAG
+<img src="cat.jpg" alt="Cute Cat" width="200" height="150">
+- src = location of image
+- alt = alternative text if image not available
+- width/height = size of image
+
+--------------------------------------------
+
+4) ANCHOR (LINK) TAG
+<a href="https://google.com">Go to Google</a>
+- href = link address
+- Can open other websites, pages, or files
+
+Example:
+<a href="about.html">About Page</a>
+
+--------------------------------------------
+
+5) DOCUMENT STRUCTURE (DIV + SPAN)
+- <div> groups big sections (block level)
+- <span> groups small words or phrases (inline)
+
+Example:
+<div>
+   <h2>Student Info</h2>
+   <p>Name: <span>John</span></p>
+</div>
+
+--------------------------------------------
+
+SUMMARY
+- Text can be formatted using <b>, <i>, <u>, <strong>, <em>, <sub>, <sup>
+- Headings: <h1> to <h6>, Paragraph: <p>
+- Block element: <div>, Inline element: <span>
+- Image: <img> with src, alt, width, height
+- Links: <a href="...">text</a>

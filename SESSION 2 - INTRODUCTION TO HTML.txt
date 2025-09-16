@@ -1,0 +1,84 @@
+SESSION 2 - INTRODUCTION TO HTML
+------------------------------------
+
+1) WHAT IS HTML
+- HTML = HyperText Markup Language
+- It is the language used to create web pages.
+- Browser reads HTML code and shows it as a web page.
+- Example: A recipe book written in a special format. Browser reads and shows it nicely.
+
+------------------------------------
+
+2) STRUCTURE VS PRESENTATION
+- Structure = Content of the page (HTML).
+- Presentation = Style or design of the page (CSS).
+- Example:
+  Structure: <h1>Hello</h1>
+  Presentation: h1 {color:red;}
+
+------------------------------------
+
+3) BASIC HTML PAGE STRUCTURE
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Page</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    Hello World!
+  </body>
+</html>
+
+Explanation:
+- <!DOCTYPE html> tells browser this is HTML5
+- <html> </html> main root tag
+- <head> </head> contains information (title, meta, links)
+- <body> </body> contains actual content shown in browser
+
+------------------------------------
+
+4) HTML COMMENTS
+<!-- This is a comment, browser will ignore it -->
+
+------------------------------------
+
+5) PAGE INFORMATION
+- <title> = Shows title in browser tab
+- <meta> = Stores extra information like description, keywords
+- <link> = Used to link CSS files
+- <style> = Used for CSS inside the page
+- <script> = Used for JavaScript code
+
+Example:
+<head>
+  <title>Student Page</title>
+  <meta name="description" content="Simple Web Page">
+  <link rel="stylesheet" href="style.css">
+  <style>body{background-color:lightblue;}</style>
+  <script>alert('Hello!');</script>
+</head>
+
+------------------------------------
+
+6) FIRST WEB PAGE - HELLO WORLD
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test Page</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>This is my first web page.</p>
+  </body>
+</html>
+
+------------------------------------
+
+SUMMARY
+- HTML is used to create web pages.
+- Structure = Content, Presentation = Style.
+- Every HTML page has head and body.
+- Head contains info (title, meta, style, script).
+- Body contains the visible content.
+- Comments are written inside <!--  -->
