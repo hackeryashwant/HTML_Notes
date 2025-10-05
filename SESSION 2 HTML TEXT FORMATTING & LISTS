@@ -1,0 +1,78 @@
+SESSION 2: HTML TEXT FORMATTING & LISTS
+
+1. Text Formatting Tags
+
+- <b>Text</b> → Bold text
+- <strong>Text</strong> → Important bold text
+- <i>Text</i> → Italic text
+- <em>Text</em> → Emphasized italic text
+- <u>Text</u> → Underline text
+- <ins>Text</ins> → Inserted text
+- <del>Text</del> → Deleted text
+- <sub>Text</sub> → Subscript
+- <sup>Text</sup> → Superscript
+
+Example:
+
+<p>This is <b>bold</b> and <i>italic</i> text.</p>
+
+---
+
+2. Lists in HTML
+
+A. **Ordered List (Numbered)**
+
+<ol>
+    <li>First Item</li>
+    <li>Second Item</li>
+    <li>Third Item</li>
+</ol>
+
+B. **Unordered List (Bullets)**
+
+<ul>
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Orange</li>
+</ul>
+
+C. **Definition List**
+
+<dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets</dd>
+</dl>
+
+---
+
+3. Nesting Lists
+
+- You can put a list inside another list:
+
+<ol>
+    <li>Fruits
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+        </ul>
+    </li>
+    <li>Vegetables
+        <ul>
+            <li>Carrot</li>
+            <li>Tomato</li>
+        </ul>
+    </li>
+</ol>
+
+---
+
+4. Practice Tasks:
+
+1. Create a webpage with headings and paragraphs.
+2. Make an ordered list of your favorite movies.
+3. Make an unordered list of your hobbies.
+4. Add a definition list of 3 computer terms.
+5. Try using <b>, <i>, <u>, <sub>, <sup> tags in your paragraph.
+
