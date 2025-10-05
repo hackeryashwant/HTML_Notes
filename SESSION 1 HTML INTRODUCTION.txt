@@ -1,0 +1,80 @@
+SESSION 1 HTML INTRODUCTION
+
+1. What is HTML?
+   - HTML = HyperText Markup Language
+   - Used to create web pages
+   - Structures content like text, images, links, tables
+
+2. Basic Features
+   - Simple to learn
+   - Platform independent
+   - Uses tags to define elements
+   - Can include images, videos, links
+
+3. Basic HTML Structure
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Page</title>
+</head>
+<body>
+    <h1>Welcome to HTML</h1>
+    <p>This is my first web page.</p>
+</body>
+</html>
+
+4. Explanation of Tags
+   - <!DOCTYPE html> → HTML version declaration
+   - <html> → Root element
+   - <head> → Meta information
+   - <title> → Browser tab title
+   - <body> → Visible content
+   - <h1> to <h6> → Headings
+   - <p> → Paragraph
+   - <br> → Line break (self-closing)
+   - <hr> → Horizontal line (self-closing)
+
+5. Common HTML Tags
+   - Headings: <h1> to <h6>
+   - Paragraph: <p>
+   - Links: <a href="url">Link Text</a>
+   - Images: <img src="image.jpg" alt="description">
+   - Lists:
+       * Ordered: <ol><li>Item</li></ol>
+       * Unordered: <ul><li>Item</li></ul>
+       * Definition: <dl><dt>Term</dt><dd>Definition</dd></dl>
+
+6. Attributes
+   - Extra info for elements
+   - Syntax: <tag attribute="value">
+   - Example:
+       * <a href="https://www.google.com">Google</a>
+       * <img src="logo.png" alt="Logo">
+
+7. Comments
+   - Not visible in browser
+   - Syntax: <!-- This is a comment -->
+
+8. Save & Run
+   - Save file as .html (e.g., index.html)
+   - Open in any browser (Chrome, Edge, Firefox)
+
+9. Example: Simple Web Page
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+</head>
+<body>
+    <h1>Hello, I am Yashwant</h1>
+    <p>I am learning HTML. It is fun!</p>
+    <a href="https://www.google.com">Visit Google</a>
+</body>
+</html>
+
+Practice:
+- Try changing the heading text
+- Add more paragraphs
+- Add your own links and images
