@@ -1,0 +1,95 @@
+SESSION 4: HTML TABLES
+
+1. Introduction
+- Tables are used to display data in rows and columns.
+- Main tags:
+    * <table> → defines a table
+    * <tr> → table row
+    * <th> → table header cell (bold & centered)
+    * <td> → table data cell
+
+---
+
+2. Basic Table Syntax
+
+<table border="1">
+    <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Marks</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Yashwant</td>
+        <td>95</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Rahul</td>
+        <td>88</td>
+    </tr>
+</table>
+
+- `border="1"` adds a border around the table.
+- You can remove border with `border="0"`.
+
+---
+
+3. Table Attributes
+
+- **border** → thickness of border
+- **cellpadding** → space inside cell
+- **cellspacing** → space between cells
+- **align** → left, center, right
+- **width** → table width
+- **height** → table height
+- **bgcolor** → background color
+
+Example:
+
+<table border="1" cellpadding="10" cellspacing="5" width="50%" bgcolor="lightblue" align="center">
+    <tr>
+        <th>Subject</th>
+        <th>Marks</th>
+    </tr>
+    <tr>
+        <td>Math</td>
+        <td>90</td>
+    </tr>
+    <tr>
+        <td>Science</td>
+        <td>85</td>
+    </tr>
+</table>
+
+---
+
+4. Merging Cells
+
+- **Colspan** → Merge columns
+- **Rowspan** → Merge rows
+
+Example:
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th colspan="2">Marks</th>
+    </tr>
+    <tr>
+        <td>Yashwant</td>
+        <td>Math: 90</td>
+        <td>Science: 85</td>
+    </tr>
+</table>
+
+---
+
+5. Practice Tasks:
+
+1. Create a table of 5 students with Roll No, Name, Marks.
+2. Add border, cellpadding, cellspacing, and bgcolor.
+3. Merge 2 columns using colspan.
+4. Try merging 2 rows using rowspan.
+5. Center align your table on the page.
+
