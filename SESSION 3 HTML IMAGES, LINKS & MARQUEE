@@ -1,0 +1,62 @@
+SESSION 3: HTML IMAGES, LINKS & MARQUEE
+
+1. Images in HTML
+
+- Tag: <img>
+- Syntax: <img src="image.jpg" alt="Description" width="300" height="200">
+- Attributes:
+    * src → image path or URL
+    * alt → description if image not displayed
+    * width → width of image
+    * height → height of image
+
+Example:
+
+<img src="logo.png" alt="My Logo" width="200" height="100">
+
+---
+
+2. Links in HTML
+
+- Tag: <a>
+- Syntax: <a href="url">Link Text</a>
+- Attributes:
+    * href → URL to navigate
+    * target → "_blank" to open in new tab
+
+Examples:
+
+<a href="https://www.google.com">Visit Google</a>
+<a href="about.html" target="_blank">Open About Page</a>
+
+---
+
+3. Mail & Telephone Links
+
+- Email link: <a href="mailto:example@gmail.com">Email Me</a>
+- Phone link: <a href="tel:+911234567890">Call Me</a>
+
+---
+
+4. Marquee Tag (Scrolling Text)
+
+- Tag: <marquee> (Note: Deprecated in HTML5, but still works)
+- Attributes:
+    * direction → left, right, up, down
+    * scrollamount → speed of scrolling
+    * behavior → scroll, slide, alternate
+
+Example:
+
+<marquee direction="left" scrollamount="5">Welcome to My Website</marquee>
+
+---
+
+5. Practice Tasks:
+
+1. Add an image of your choice with proper width, height, and alt text.
+2. Create links to Google, YouTube, and a local HTML page.
+3. Add a scrolling marquee with a welcome message.
+4. Create email and telephone links.
+5. Try changing marquee direction and speed.
+
